@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DFE6C4B27214EB900CBEEF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C4A27214EB900CBEEF0 /* AppDelegate.swift */; };
+		4DFE6C4F27214EB900CBEEF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C4E27214EB900CBEEF0 /* ViewController.swift */; };
+		4DFE6C5427214EBC00CBEEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE6C5327214EBC00CBEEF0 /* Assets.xcassets */; };
+		4DFE6C5727214EBC00CBEEF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE6C5527214EBC00CBEEF0 /* LaunchScreen.storyboard */; };
+		4DFE6C6227214EBD00CBEEF0 /* TonmangramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C6127214EBD00CBEEF0 /* TonmangramTests.swift */; };
+		4DFE6C6D27214EBD00CBEEF0 /* TonmangramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C6C27214EBD00CBEEF0 /* TonmangramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DFE6C5E27214EBD00CBEEF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DFE6C3F27214EB900CBEEF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DFE6C4627214EB900CBEEF0;
+			remoteInfo = Tonmangram;
+		};
+		4DFE6C6927214EBD00CBEEF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DFE6C3F27214EB900CBEEF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DFE6C4627214EB900CBEEF0;
+			remoteInfo = Tonmangram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DFE6C4727214EB900CBEEF0 /* Tonmangram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tonmangram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFE6C4A27214EB900CBEEF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DFE6C4E27214EB900CBEEF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DFE6C5327214EBC00CBEEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DFE6C5627214EBC00CBEEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DFE6C5827214EBC00CBEEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFE6C5D27214EBD00CBEEF0 /* TonmangramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TonmangramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFE6C6127214EBD00CBEEF0 /* TonmangramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonmangramTests.swift; sourceTree = "<group>"; };
+		4DFE6C6327214EBD00CBEEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFE6C6827214EBD00CBEEF0 /* TonmangramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TonmangramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFE6C6C27214EBD00CBEEF0 /* TonmangramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonmangramUITests.swift; sourceTree = "<group>"; };
+		4DFE6C6E27214EBD00CBEEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DFE6C4427214EB900CBEEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFE6C5A27214EBD00CBEEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFE6C6527214EBD00CBEEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DFE6C3E27214EB900CBEEF0 = {
+			isa = PBXGroup;
+			children = (
+				4DFE6C4927214EB900CBEEF0 /* Tonmangram */,
+				4DFE6C6027214EBD00CBEEF0 /* TonmangramTests */,
+				4DFE6C6B27214EBD00CBEEF0 /* TonmangramUITests */,
+				4DFE6C4827214EB900CBEEF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DFE6C4827214EB900CBEEF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE6C4727214EB900CBEEF0 /* Tonmangram.app */,
+				4DFE6C5D27214EBD00CBEEF0 /* TonmangramTests.xctest */,
+				4DFE6C6827214EBD00CBEEF0 /* TonmangramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DFE6C4927214EB900CBEEF0 /* Tonmangram */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE6C4A27214EB900CBEEF0 /* AppDelegate.swift */,
+				4DFE6C4E27214EB900CBEEF0 /* ViewController.swift */,
+				4DFE6C5327214EBC00CBEEF0 /* Assets.xcassets */,
+				4DFE6C5527214EBC00CBEEF0 /* LaunchScreen.storyboard */,
+				4DFE6C5827214EBC00CBEEF0 /* Info.plist */,
+			);
+			path = Tonmangram;
+			sourceTree = "<group>";
+		};
+		4DFE6C6027214EBD00CBEEF0 /* TonmangramTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE6C6127214EBD00CBEEF0 /* TonmangramTests.swift */,
+				4DFE6C6327214EBD00CBEEF0 /* Info.plist */,
+			);
+			path = TonmangramTests;
+			sourceTree = "<group>";
+		};
+		4DFE6C6B27214EBD00CBEEF0 /* TonmangramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE6C6C27214EBD00CBEEF0 /* TonmangramUITests.swift */,
+				4DFE6C6E27214EBD00CBEEF0 /* Info.plist */,
+			);
+			path = TonmangramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DFE6C4627214EB900CBEEF0 /* Tonmangram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFE6C7127214EBD00CBEEF0 /* Build configuration list for PBXNativeTarget "Tonmangram" */;
+			buildPhases = (
+				4DFE6C4327214EB900CBEEF0 /* Sources */,
+				4DFE6C4427214EB900CBEEF0 /* Frameworks */,
+				4DFE6C4527214EB900CBEEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tonmangram;
+			productName = Tonmangram;
+			productReference = 4DFE6C4727214EB900CBEEF0 /* Tonmangram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DFE6C5C27214EBD00CBEEF0 /* TonmangramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFE6C7427214EBD00CBEEF0 /* Build configuration list for PBXNativeTarget "TonmangramTests" */;
+			buildPhases = (
+				4DFE6C5927214EBD00CBEEF0 /* Sources */,
+				4DFE6C5A27214EBD00CBEEF0 /* Frameworks */,
+				4DFE6C5B27214EBD00CBEEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DFE6C5F27214EBD00CBEEF0 /* PBXTargetDependency */,
+			);
+			name = TonmangramTests;
+			productName = TonmangramTests;
+			productReference = 4DFE6C5D27214EBD00CBEEF0 /* TonmangramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DFE6C6727214EBD00CBEEF0 /* TonmangramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFE6C7727214EBD00CBEEF0 /* Build configuration list for PBXNativeTarget "TonmangramUITests" */;
+			buildPhases = (
+				4DFE6C6427214EBD00CBEEF0 /* Sources */,
+				4DFE6C6527214EBD00CBEEF0 /* Frameworks */,
+				4DFE6C6627214EBD00CBEEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DFE6C6A27214EBD00CBEEF0 /* PBXTargetDependency */,
+			);
+			name = TonmangramUITests;
+			productName = TonmangramUITests;
+			productReference = 4DFE6C6827214EBD00CBEEF0 /* TonmangramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DFE6C3F27214EB900CBEEF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4DFE6C4627214EB900CBEEF0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4DFE6C5C27214EBD00CBEEF0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4DFE6C4627214EB900CBEEF0;
+					};
+					4DFE6C6727214EBD00CBEEF0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4DFE6C4627214EB900CBEEF0;
+					};
+				};
+			};
+			buildConfigurationList = 4DFE6C4227214EB900CBEEF0 /* Build configuration list for PBXProject "Tonmangram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DFE6C3E27214EB900CBEEF0;
+			productRefGroup = 4DFE6C4827214EB900CBEEF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DFE6C4627214EB900CBEEF0 /* Tonmangram */,
+				4DFE6C5C27214EBD00CBEEF0 /* TonmangramTests */,
+				4DFE6C6727214EBD00CBEEF0 /* TonmangramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DFE6C4527214EB900CBEEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFE6C5727214EBC00CBEEF0 /* LaunchScreen.storyboard in Resources */,
+				4DFE6C5427214EBC00CBEEF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFE6C5B27214EBD00CBEEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFE6C6627214EBD00CBEEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DFE6C4327214EB900CBEEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFE6C4F27214EB900CBEEF0 /* ViewController.swift in Sources */,
+				4DFE6C4B27214EB900CBEEF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFE6C5927214EBD00CBEEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFE6C6227214EBD00CBEEF0 /* TonmangramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFE6C6427214EBD00CBEEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFE6C6D27214EBD00CBEEF0 /* TonmangramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DFE6C5F27214EBD00CBEEF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DFE6C4627214EB900CBEEF0 /* Tonmangram */;
+			targetProxy = 4DFE6C5E27214EBD00CBEEF0 /* PBXContainerItemProxy */;
+		};
+		4DFE6C6A27214EBD00CBEEF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DFE6C4627214EB900CBEEF0 /* Tonmangram */;
+			targetProxy = 4DFE6C6927214EBD00CBEEF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DFE6C5527214EBC00CBEEF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFE6C5627214EBC00CBEEF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DFE6C6F27214EBD00CBEEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DFE6C7027214EBD00CBEEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DFE6C7227214EBD00CBEEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P9R7X2AHQ;
+				INFOPLIST_FILE = Tonmangram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluton.Tonmangram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DFE6C7327214EBD00CBEEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P9R7X2AHQ;
+				INFOPLIST_FILE = Tonmangram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluton.Tonmangram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DFE6C7527214EBD00CBEEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P9R7X2AHQ;
+				INFOPLIST_FILE = TonmangramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluton.TonmangramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tonmangram.app/Tonmangram";
+			};
+			name = Debug;
+		};
+		4DFE6C7627214EBD00CBEEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P9R7X2AHQ;
+				INFOPLIST_FILE = TonmangramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluton.TonmangramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tonmangram.app/Tonmangram";
+			};
+			name = Release;
+		};
+		4DFE6C7827214EBD00CBEEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P9R7X2AHQ;
+				INFOPLIST_FILE = TonmangramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluton.TonmangramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tonmangram;
+			};
+			name = Debug;
+		};
+		4DFE6C7927214EBD00CBEEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P9R7X2AHQ;
+				INFOPLIST_FILE = TonmangramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluton.TonmangramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tonmangram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DFE6C4227214EB900CBEEF0 /* Build configuration list for PBXProject "Tonmangram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFE6C6F27214EBD00CBEEF0 /* Debug */,
+				4DFE6C7027214EBD00CBEEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFE6C7127214EBD00CBEEF0 /* Build configuration list for PBXNativeTarget "Tonmangram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFE6C7227214EBD00CBEEF0 /* Debug */,
+				4DFE6C7327214EBD00CBEEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFE6C7427214EBD00CBEEF0 /* Build configuration list for PBXNativeTarget "TonmangramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFE6C7527214EBD00CBEEF0 /* Debug */,
+				4DFE6C7627214EBD00CBEEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFE6C7727214EBD00CBEEF0 /* Build configuration list for PBXNativeTarget "TonmangramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFE6C7827214EBD00CBEEF0 /* Debug */,
+				4DFE6C7927214EBD00CBEEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DFE6C3F27214EB900CBEEF0 /* Project object */;
+}

@@ -3,16 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07BB7817818AB87ADE236BBA /* Pods_Tonmangram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6677944676C7D5CBC09AF1 /* Pods_Tonmangram.framework */; };
+		1938EF9FED3998165F945B7B /* Pods_Tonmangram_TonmangramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2B8A021E4DA5300DAFCC11 /* Pods_Tonmangram_TonmangramUITests.framework */; };
 		4DFE6C4B27214EB900CBEEF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C4A27214EB900CBEEF0 /* AppDelegate.swift */; };
-		4DFE6C4F27214EB900CBEEF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C4E27214EB900CBEEF0 /* ViewController.swift */; };
 		4DFE6C5427214EBC00CBEEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE6C5327214EBC00CBEEF0 /* Assets.xcassets */; };
 		4DFE6C5727214EBC00CBEEF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE6C5527214EBC00CBEEF0 /* LaunchScreen.storyboard */; };
 		4DFE6C6227214EBD00CBEEF0 /* TonmangramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C6127214EBD00CBEEF0 /* TonmangramTests.swift */; };
 		4DFE6C6D27214EBD00CBEEF0 /* TonmangramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C6C27214EBD00CBEEF0 /* TonmangramUITests.swift */; };
+		4DFE6C7C2721556600CBEEF0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C7B2721556600CBEEF0 /* WelcomeViewController.swift */; };
+		4DFE6C7F2721597700CBEEF0 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C7E2721597700CBEEF0 /* UIFontExtension.swift */; };
+		4DFE6C82272159B200CBEEF0 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C81272159B200CBEEF0 /* UIButtonExtension.swift */; };
+		4DFE6C842721972000CBEEF0 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C832721972000CBEEF0 /* AuthViewController.swift */; };
+		4DFE6C872721A6A000CBEEF0 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE6C862721A6A000CBEEF0 /* UIViewExtension.swift */; };
+		F02030D59C756E03DB572864 /* Pods_TonmangramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61D652F8459DDD77D3417AD /* Pods_TonmangramTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EEDD7DA4D46CF750491F48A /* Pods-TonmangramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TonmangramTests.debug.xcconfig"; path = "Target Support Files/Pods-TonmangramTests/Pods-TonmangramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FC9EF59C380DB124C419321 /* Pods-Tonmangram-TonmangramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tonmangram-TonmangramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tonmangram-TonmangramUITests/Pods-Tonmangram-TonmangramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4DFE6C4727214EB900CBEEF0 /* Tonmangram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tonmangram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFE6C4A27214EB900CBEEF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DFE6C4E27214EB900CBEEF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DFE6C5327214EBC00CBEEF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DFE6C5627214EBC00CBEEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DFE6C5827214EBC00CBEEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +53,18 @@
 		4DFE6C6827214EBD00CBEEF0 /* TonmangramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TonmangramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFE6C6C27214EBD00CBEEF0 /* TonmangramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonmangramUITests.swift; sourceTree = "<group>"; };
 		4DFE6C6E27214EBD00CBEEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFE6C7B2721556600CBEEF0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4DFE6C7E2721597700CBEEF0 /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		4DFE6C81272159B200CBEEF0 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		4DFE6C832721972000CBEEF0 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		4DFE6C862721A6A000CBEEF0 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		519E665258F348DF791EA318 /* Pods-Tonmangram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tonmangram.release.xcconfig"; path = "Target Support Files/Pods-Tonmangram/Pods-Tonmangram.release.xcconfig"; sourceTree = "<group>"; };
+		52EBD316CC1D67183749BF29 /* Pods-TonmangramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TonmangramTests.release.xcconfig"; path = "Target Support Files/Pods-TonmangramTests/Pods-TonmangramTests.release.xcconfig"; sourceTree = "<group>"; };
+		A90A3E9127C767B0F66A05FA /* Pods-Tonmangram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tonmangram.debug.xcconfig"; path = "Target Support Files/Pods-Tonmangram/Pods-Tonmangram.debug.xcconfig"; sourceTree = "<group>"; };
+		C61D652F8459DDD77D3417AD /* Pods_TonmangramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TonmangramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6677944676C7D5CBC09AF1 /* Pods_Tonmangram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tonmangram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2B8A021E4DA5300DAFCC11 /* Pods_Tonmangram_TonmangramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tonmangram_TonmangramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF38A5FCF670676FA9C707D /* Pods-Tonmangram-TonmangramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tonmangram-TonmangramUITests.release.xcconfig"; path = "Target Support Files/Pods-Tonmangram-TonmangramUITests/Pods-Tonmangram-TonmangramUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BB7817818AB87ADE236BBA /* Pods_Tonmangram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02030D59C756E03DB572864 /* Pods_TonmangramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1938EF9FED3998165F945B7B /* Pods_Tonmangram_TonmangramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		156C056A88A785F2ECA82F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF6677944676C7D5CBC09AF1 /* Pods_Tonmangram.framework */,
+				DC2B8A021E4DA5300DAFCC11 /* Pods_Tonmangram_TonmangramUITests.framework */,
+				C61D652F8459DDD77D3417AD /* Pods_TonmangramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2150298A417A7B110E432798 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A90A3E9127C767B0F66A05FA /* Pods-Tonmangram.debug.xcconfig */,
+				519E665258F348DF791EA318 /* Pods-Tonmangram.release.xcconfig */,
+				2FC9EF59C380DB124C419321 /* Pods-Tonmangram-TonmangramUITests.debug.xcconfig */,
+				EBF38A5FCF670676FA9C707D /* Pods-Tonmangram-TonmangramUITests.release.xcconfig */,
+				2EEDD7DA4D46CF750491F48A /* Pods-TonmangramTests.debug.xcconfig */,
+				52EBD316CC1D67183749BF29 /* Pods-TonmangramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4DFE6C3E27214EB900CBEEF0 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +125,8 @@
 				4DFE6C6027214EBD00CBEEF0 /* TonmangramTests */,
 				4DFE6C6B27214EBD00CBEEF0 /* TonmangramUITests */,
 				4DFE6C4827214EB900CBEEF0 /* Products */,
+				2150298A417A7B110E432798 /* Pods */,
+				156C056A88A785F2ECA82F05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +143,9 @@
 		4DFE6C4927214EB900CBEEF0 /* Tonmangram */ = {
 			isa = PBXGroup;
 			children = (
-				4DFE6C4A27214EB900CBEEF0 /* AppDelegate.swift */,
-				4DFE6C4E27214EB900CBEEF0 /* ViewController.swift */,
-				4DFE6C5327214EBC00CBEEF0 /* Assets.xcassets */,
-				4DFE6C5527214EBC00CBEEF0 /* LaunchScreen.storyboard */,
-				4DFE6C5827214EBC00CBEEF0 /* Info.plist */,
+				4DFE6C7A2721553900CBEEF0 /* SupportFiles */,
+				4DFE6C7D272156D900CBEEF0 /* AuthModule */,
+				4DFE6C802721597B00CBEEF0 /* UIExtensions */,
 			);
 			path = Tonmangram;
 			sourceTree = "<group>";
@@ -122,6 +168,44 @@
 			path = TonmangramUITests;
 			sourceTree = "<group>";
 		};
+		4DFE6C7A2721553900CBEEF0 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE6C4A27214EB900CBEEF0 /* AppDelegate.swift */,
+				4DFE6C5327214EBC00CBEEF0 /* Assets.xcassets */,
+				4DFE6C5527214EBC00CBEEF0 /* LaunchScreen.storyboard */,
+				4DFE6C5827214EBC00CBEEF0 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		4DFE6C7D272156D900CBEEF0 /* AuthModule */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE6C852721972500CBEEF0 /* View */,
+			);
+			path = AuthModule;
+			sourceTree = "<group>";
+		};
+		4DFE6C802721597B00CBEEF0 /* UIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE6C7E2721597700CBEEF0 /* UIFontExtension.swift */,
+				4DFE6C81272159B200CBEEF0 /* UIButtonExtension.swift */,
+				4DFE6C862721A6A000CBEEF0 /* UIViewExtension.swift */,
+			);
+			path = UIExtensions;
+			sourceTree = "<group>";
+		};
+		4DFE6C852721972500CBEEF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE6C7B2721556600CBEEF0 /* WelcomeViewController.swift */,
+				4DFE6C832721972000CBEEF0 /* AuthViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DFE6C7127214EBD00CBEEF0 /* Build configuration list for PBXNativeTarget "Tonmangram" */;
 			buildPhases = (
+				FDE93B6CFAD5450C8D122247 /* [CP] Check Pods Manifest.lock */,
 				4DFE6C4327214EB900CBEEF0 /* Sources */,
 				4DFE6C4427214EB900CBEEF0 /* Frameworks */,
 				4DFE6C4527214EB900CBEEF0 /* Resources */,
+				30753DC8F12DF34990ADFC58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DFE6C7427214EBD00CBEEF0 /* Build configuration list for PBXNativeTarget "TonmangramTests" */;
 			buildPhases = (
+				18E4874A6734D3E7F2CECE9C /* [CP] Check Pods Manifest.lock */,
 				4DFE6C5927214EBD00CBEEF0 /* Sources */,
 				4DFE6C5A27214EBD00CBEEF0 /* Frameworks */,
 				4DFE6C5B27214EBD00CBEEF0 /* Resources */,
+				40A001B3E06A9E066C4B7413 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DFE6C7727214EBD00CBEEF0 /* Build configuration list for PBXNativeTarget "TonmangramUITests" */;
 			buildPhases = (
+				47D984BC76D55996BAC583DC /* [CP] Check Pods Manifest.lock */,
 				4DFE6C6427214EBD00CBEEF0 /* Sources */,
 				4DFE6C6527214EBD00CBEEF0 /* Frameworks */,
 				4DFE6C6627214EBD00CBEEF0 /* Resources */,
+				51DCFDE9BF482A928739F46D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,13 +336,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18E4874A6734D3E7F2CECE9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TonmangramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30753DC8F12DF34990ADFC58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tonmangram/Pods-Tonmangram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tonmangram/Pods-Tonmangram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tonmangram/Pods-Tonmangram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40A001B3E06A9E066C4B7413 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TonmangramTests/Pods-TonmangramTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TonmangramTests/Pods-TonmangramTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TonmangramTests/Pods-TonmangramTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47D984BC76D55996BAC583DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tonmangram-TonmangramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51DCFDE9BF482A928739F46D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tonmangram-TonmangramUITests/Pods-Tonmangram-TonmangramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tonmangram-TonmangramUITests/Pods-Tonmangram-TonmangramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tonmangram-TonmangramUITests/Pods-Tonmangram-TonmangramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE93B6CFAD5450C8D122247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tonmangram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4DFE6C4327214EB900CBEEF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DFE6C4F27214EB900CBEEF0 /* ViewController.swift in Sources */,
 				4DFE6C4B27214EB900CBEEF0 /* AppDelegate.swift in Sources */,
+				4DFE6C872721A6A000CBEEF0 /* UIViewExtension.swift in Sources */,
+				4DFE6C82272159B200CBEEF0 /* UIButtonExtension.swift in Sources */,
+				4DFE6C842721972000CBEEF0 /* AuthViewController.swift in Sources */,
+				4DFE6C7F2721597700CBEEF0 /* UIFontExtension.swift in Sources */,
+				4DFE6C7C2721556600CBEEF0 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,12 +631,13 @@
 		};
 		4DFE6C7227214EBD00CBEEF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90A3E9127C767B0F66A05FA /* Pods-Tonmangram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2P9R7X2AHQ;
-				INFOPLIST_FILE = Tonmangram/Info.plist;
+				INFOPLIST_FILE = Tonmangram/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,12 +651,13 @@
 		};
 		4DFE6C7327214EBD00CBEEF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519E665258F348DF791EA318 /* Pods-Tonmangram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2P9R7X2AHQ;
-				INFOPLIST_FILE = Tonmangram/Info.plist;
+				INFOPLIST_FILE = Tonmangram/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +671,7 @@
 		};
 		4DFE6C7527214EBD00CBEEF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EEDD7DA4D46CF750491F48A /* Pods-TonmangramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +694,7 @@
 		};
 		4DFE6C7627214EBD00CBEEF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52EBD316CC1D67183749BF29 /* Pods-TonmangramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +717,7 @@
 		};
 		4DFE6C7827214EBD00CBEEF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC9EF59C380DB124C419321 /* Pods-Tonmangram-TonmangramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +738,7 @@
 		};
 		4DFE6C7927214EBD00CBEEF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF38A5FCF670676FA9C707D /* Pods-Tonmangram-TonmangramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
